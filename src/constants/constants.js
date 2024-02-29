@@ -6,3 +6,9 @@ export const MOST_POPULAR = `https://youtube.googleapis.com/youtube/v3/videos?pa
 
 
 
+// export const YOUTUBE_SEARCH_API = `https://clients1.google.com/complete/search?client=youtube&hl=en&gl=sg&gs_rn=64&gs_ri=youtube&tok=${GOOGLE_API_KEY}&q=jaz&callback=google.sbox.p50&gs_gbg=0l0MjG05RWnWBe9WcipQbsy`;
+
+
+export const YOUTUBE_SUGGESTION_API =  `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=`;
+
+
