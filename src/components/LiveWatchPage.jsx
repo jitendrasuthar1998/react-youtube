@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { isMenuOpen } from '../redux/slices/appSlice';
-import { useSearchParams } from 'react-router-dom';
+import { useParams, useSearchParams } from 'react-router-dom';
 import CommentsContainer from './CommentsContainer';
-import LiveChat from './LiveChat';
 
-const Watch = () => {
+const LiveWatchPage = () => {
   const dispatch = useDispatch();
 
   const [params] = useSearchParams();
@@ -30,9 +29,11 @@ const Watch = () => {
       <CommentsContainer/>
       </div>
       
-      <LiveChat/>
+      <div className='col-span-2 border-2 border-black h-1/3 ml-6'>
+        <h1>Comments</h1>
+      </div>
     </div>
   );
 };
 
-export default Watch;
+export default LiveWatchPage;

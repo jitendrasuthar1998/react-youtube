@@ -11,4 +11,4 @@ export const MOST_POPULAR = `https://youtube.googleapis.com/youtube/v3/videos?pa
 
 export const YOUTUBE_SUGGESTION_API =  `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=`;
 
-
+export const LIVE_CHAT_OFFSET = 20;
