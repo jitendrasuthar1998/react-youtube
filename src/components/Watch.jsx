@@ -4,6 +4,7 @@ import { isMenuOpen } from '../redux/slices/appSlice';
 import { useSearchParams } from 'react-router-dom';
 import CommentsContainer from './CommentsContainer';
 import LiveChat from './LiveChat';
+import UseMemoDemo from './UseMemoDemo';
 
 const Watch = () => {
   const dispatch = useDispatch();
@@ -31,6 +32,7 @@ const Watch = () => {
       </div>
       
       <LiveChat/>
+      <UseMemoDemo/>
     </div>
   );
 };
