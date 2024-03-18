@@ -5,6 +5,7 @@ import Head from './components/Head';
 import Watch from './components/Watch';
 import MainContainer from './components/MainContainer';
 import LiveWatchPage from './components/LiveWatchPage';
+import UseRefDemo from './components/UseRefDemo';
 
 const appRouter = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const appRouter = createBrowserRouter([
       {
         path:"/watch/",
         element:<Watch/>
+      },
+      {
+        path:"/useRefDemo/",
+        element:<UseRefDemo/>
       }
     ]
   },
